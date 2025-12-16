@@ -32,7 +32,7 @@ export function Footer() {
         </div>
         
         <div className="border-t border-bear-800 mt-8 pt-8 text-center text-bear-300">
-          <p>&copy; 2024 BareSpoon. All rights reserved. Made with ❤️ and honey.</p>
+          <p>&copy; 2025 BareSpoon. All rights reserved. Made with ❤️ and honey.</p>
         </div>
       </div>
     </footer>

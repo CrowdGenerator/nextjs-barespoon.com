@@ -47,7 +47,7 @@ export function Ingredients() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {ingredients.map((ing, index) => (
             <div key={index} className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow">
-              <div className="text-4xl mb-4">{ing.icon}</div>
+               <div className="text-4xl mb-4 text-bear-800">{ing.icon}</div>
               <h3 className="text-xl font-semibold text-bear-800 mb-2">{ing.name}</h3>
               <p className="text-bear-700 mb-4">{ing.description}</p>
               <div>
