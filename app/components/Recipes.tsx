@@ -30,17 +30,17 @@ export function Recipes() {
           {recipes.map((recipe, index) => (
             <div key={index} className="bg-bear-50 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow">
               <h3 className="text-2xl font-semibold text-bear-800 mb-4">{recipe.title}</h3>
-              <p className="text-bear-700 mb-4">{recipe.description}</p>
+               <p className="text-bear-800 mb-4">{recipe.description}</p>
               <div className="mb-4">
                 <h4 className="font-semibold text-bear-800 mb-2">Key Ingredients:</h4>
-                <ul className="text-sm text-bear-600">
+                 <ul className="text-sm text-bear-800">
                   {recipe.ingredients.map((ing, i) => (
                     <li key={i}>• {ing}</li>
                   ))}
                 </ul>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-bear-600">⏱️ {recipe.time}</span>
+                 <span className="text-bear-800">⏱️ {recipe.time}</span>
                 <button className="bg-bear-600 hover:bg-bear-700 text-white px-4 py-2 rounded transition-colors">
                   View Recipe
                 </button>

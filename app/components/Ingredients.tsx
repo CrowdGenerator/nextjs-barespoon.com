@@ -54,7 +54,7 @@ export function Ingredients() {
                 <h4 className="font-semibold text-bear-800 mb-2">Common Uses:</h4>
                 <div className="flex flex-wrap gap-2">
                   {ing.uses.map((use, i) => (
-                    <span key={i} className="bg-bear-100 text-bear-700 px-2 py-1 rounded text-sm">
+                     <span key={i} className="bg-bear-100 text-bear-800 px-2 py-1 rounded text-sm">
                       {use}
                     </span>
                   ))}

@@ -42,7 +42,7 @@ export function About() {
             <h3 className="text-2xl font-semibold text-bear-800 mb-4">
               Fun Bear Facts
             </h3>
-            <div className="space-y-4 text-bear-700">
+             <div className="space-y-4 text-bear-800">
               <p><strong>Honey Hunters:</strong> Bears can smell honey from miles away!</p>
               <p><strong>Berry Experts:</strong> Bears eat up to 200,000 berries in a single day during season.</p>
               <p><strong>Fish Masters:</strong> Bears catch salmon with incredible precision.</p>
