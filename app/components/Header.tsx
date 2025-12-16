@@ -14,10 +14,10 @@ export function Header() {
            </div>
           
           <nav className="hidden md:flex space-x-8">
-            <a href="#hero" className="hover:text-bear-200 transition-colors">Home</a>
-            <a href="#recipes" className="hover:text-bear-200 transition-colors">Recipes</a>
-            <a href="#ingredients" className="hover:text-bear-200 transition-colors">Ingredients</a>
-            <a href="#about" className="hover:text-bear-200 transition-colors">About</a>
+            <a href="#hero" className="hover:text-white transition-colors">Home</a>
+            <a href="#recipes" className="hover:text-white transition-colors">Recipes</a>
+            <a href="#ingredients" className="hover:text-white transition-colors">Ingredients</a>
+            <a href="#about" className="hover:text-white transition-colors">About</a>
           </nav>
           
            <button
@@ -34,10 +34,10 @@ export function Header() {
         {isMenuOpen && (
           <div className="md:hidden pb-4">
             <nav className="flex flex-col space-y-2">
-              <a href="#hero" className="hover:text-bear-200 transition-colors">Home</a>
-              <a href="#recipes" className="hover:text-bear-200 transition-colors">Recipes</a>
-              <a href="#ingredients" className="hover:text-bear-200 transition-colors">Ingredients</a>
-              <a href="#about" className="hover:text-bear-200 transition-colors">About</a>
+              <a href="#hero" className="hover:text-white transition-colors">Home</a>
+              <a href="#recipes" className="hover:text-white transition-colors">Recipes</a>
+              <a href="#ingredients" className="hover:text-white transition-colors">Ingredients</a>
+              <a href="#about" className="hover:text-white transition-colors">About</a>
             </nav>
           </div>
         )}
