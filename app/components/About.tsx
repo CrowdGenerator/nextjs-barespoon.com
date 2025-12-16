@@ -19,22 +19,22 @@ export function About() {
               Nature's Wisdom in Every Bite
             </h3>
             <ul className="space-y-3 text-bear-700">
-              <li className="flex items-start">
-                <span className="text-bear-600 mr-2">🐻</span>
-                <span>Rich in antioxidants from berries and honey</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-bear-600 mr-2">🐻</span>
-                <span>Omega-3 fatty acids from fresh fish</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-bear-600 mr-2">🐻</span>
-                <span>Natural, whole-food ingredients</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-bear-600 mr-2">🐻</span>
-                <span>Sustainable and seasonal eating</span>
-              </li>
+               <li className="flex items-start">
+                 <span className="text-bear-800 mr-2">🐻</span>
+                 <span>Rich in antioxidants from berries and honey</span>
+               </li>
+               <li className="flex items-start">
+                 <span className="text-bear-800 mr-2">🐻</span>
+                 <span>Omega-3 fatty acids from fresh fish</span>
+               </li>
+               <li className="flex items-start">
+                 <span className="text-bear-800 mr-2">🐻</span>
+                 <span>Natural, whole-food ingredients</span>
+               </li>
+               <li className="flex items-start">
+                 <span className="text-bear-800 mr-2">🐻</span>
+                 <span>Sustainable and seasonal eating</span>
+               </li>
             </ul>
           </div>
           
