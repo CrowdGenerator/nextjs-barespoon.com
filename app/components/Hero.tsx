@@ -10,7 +10,7 @@ export function Hero() {
           Because if it's good enough for bears, it's good enough for you!
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="#recipes" className="bg-bear-600 hover:bg-bear-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+          <a href="#recipes" className="bg-bear-600 hover:bg-bear-700 text-black px-8 py-3 rounded-lg font-semibold transition-colors">
             Explore Recipes
           </a>
            <a href="#ingredients" className="border-2 border-bear-600 text-bear-800 hover:bg-bear-600 hover:text-white px-8 py-3 rounded-lg font-semibold transition-colors">
