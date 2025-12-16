@@ -1,11 +1,11 @@
 export function Footer() {
   return (
-    <footer className="bg-bear-900 text-white py-12">
+    <footer className="bg-white text-black py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
              <div className="text-2xl font-bold mb-4">🐻 BareSpoon</div>
-            <p className="text-white mb-4">
+            <p className="text-black mb-4">
               Great food with things bears like. Discover nature's best ingredients 
               through delicious, bear-inspired recipes.
             </p>
@@ -13,25 +13,25 @@ export function Footer() {
           
           <div>
             <h3 className="font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2 text-white">
-              <li><a href="#recipes" className="hover:text-white transition-colors">Recipes</a></li>
-              <li><a href="#ingredients" className="hover:text-white transition-colors">Ingredients</a></li>
-              <li><a href="#about" className="hover:text-white transition-colors">About</a></li>
+            <ul className="space-y-2 text-black">
+              <li><a href="#recipes" className="hover:text-black transition-colors">Recipes</a></li>
+              <li><a href="#ingredients" className="hover:text-black transition-colors">Ingredients</a></li>
+              <li><a href="#about" className="hover:text-black transition-colors">About</a></li>
             </ul>
           </div>
           
           <div>
             <h3 className="font-semibold mb-4">Connect</h3>
-            <p className="text-white">
+            <p className="text-black">
               Have a bear-approved recipe? Share it with us!
             </p>
-            <p className="text-white mt-2">
+            <p className="text-black mt-2">
               hello@barespoon.com
             </p>
           </div>
         </div>
         
-        <div className="border-t border-bear-800 mt-8 pt-8 text-center text-white">
+        <div className="border-t border-bear-800 mt-8 pt-8 text-center text-black">
           <p>&copy; 2025 BareSpoon. All rights reserved. Made with ❤️ and honey.</p>
         </div>
       </div>
